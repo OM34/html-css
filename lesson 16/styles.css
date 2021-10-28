@@ -18,6 +18,6 @@ body, ul{
             font-size: 19px;
             padding: 0px 15px;
         }
-        #menu li a:hover, a.active{
+        #menu li a:hover, #menu li a.active{
             text-decoration: underline;
         }
