@@ -1,0 +1,23 @@
+body, ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu{
+    width: 100%;
+    background-color: #F8AA03;
+}
+    #menu li{
+        display: inline-block;
+    }
+        #menu li a{
+            text-decoration: none;
+            color:white;
+            line-height: 50px;
+            display: block;
+            text-align: center;
+            font-size: 19px;
+            padding: 0px 15px;
+        }
+        #menu li a:hover, a.active{
+            text-decoration: underline;
+        }
